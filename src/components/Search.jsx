@@ -4,25 +4,25 @@ function Search() {
     return(
         <div className="row">
             <div className="col-lg-3 col-sm-6 col-dm-6">
-                <div className="form-floating">
+                <div className="form-floating shadow">
                     <input type="text" className="form-control" id="floatingFrom" placeholder="Origen" />
                     <label htmlFor="floatingInput">Origen</label>
                 </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-dm-6">
-                <div className="form-floating">
+                <div className="form-floating shadow">
                     <input type="text" className="form-control" id="floatingTo" placeholder="Destino" />
                     <label htmlFor="floatingPassword">Destino</label>
                 </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-dm-6">
-                <div className="form-floating">
+                <div className="form-floating shadow">
                     <input type="date" className="form-control" id="floatingFrom" placeholder="Origen" />
                     <label htmlFor="floatingInput">Salida</label>
                 </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-dm-6">
-                <div className="form-floating">
+                <div className="form-floating shadow">
                     <input type="date" className="form-control" id="floatingTo" placeholder="Destino" />
                     <label htmlFor="floatingPassword">Regreso (Opcional)</label>
                 </div>

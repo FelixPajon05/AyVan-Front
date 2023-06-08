@@ -1,4 +1,21 @@
+body, footer {
+    background-color: #DCE5E9;
+}
+
+nav {
+    background-color: #095C8F;
+}
 
 ul {
     list-style: none;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.item img{
+    width: 5em;
+    margin: 3em;
 }
