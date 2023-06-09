@@ -6,7 +6,9 @@ import ListTravels from "../pages/ListTravels";
 import TripData from "../pages/TripData";
 import Passenger from "../pages/Passenger";
 import PaymentMethods from "../pages/PaymentMethods";
+
 import Login from "../pages/Login";
+import Register from "../pages/Register";
 
 export const router = createBrowserRouter([
     {
@@ -32,5 +34,9 @@ export const router = createBrowserRouter([
     {
         path: "/Login",
         element: <Login />
+    },
+    {
+        path: "/register",
+        element: <Register />
     }
 ]);
